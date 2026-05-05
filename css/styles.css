@@ -402,7 +402,7 @@ hr {
   left: 0;
   right: 0;
   padding-top: var(--space-2);
-  padding-bottom: var(--space-6);
+  padding-bottom: var(--space-2);
   margin-bottom: var(--space-2);
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
@@ -411,13 +411,13 @@ hr {
   justify-content: space-between;
   background-color: transparent;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  z-index: 100;
+  z-index: 98;
 }
 
 .navbar.scrolled {
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: var(--shadow-nav);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(16px);
 }
 
 .navbar__inner {
@@ -546,7 +546,7 @@ hr {
   bottom: 0;
   background-color: var(--color-overlay);
   backdrop-filter: blur(12px);
-  z-index: 99;
+  z-index: 100;
   padding:
     calc(var(--space-6) + env(safe-area-inset-top))
     calc(var(--space-6) + env(safe-area-inset-right))
@@ -1672,8 +1672,8 @@ main {
 
 @media (max-width: 768px) {
   .nav-logo {
-    width: 56px;
-    height: 56px;
+    width: 96px;
+    height: 96px;
   }
 
   /* ---- Navbar ---- */
