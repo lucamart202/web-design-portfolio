@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Luca Martino | Web Designer</title>
+  <meta name="description" content="Portfolio of custom web design projects for construction and home services businesses. See our recent work and case studies.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/images/logo.png" type="image/png+xml">
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <img src="assets/images/logo.png" alt="Luca Martino logo" class="nav-logo">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="contact.html" class="btn-primary nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">✕</button>
+    <nav class="mobile-menu__nav">
+      <a href="work.html" aria-current="page">Work</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-inverted">Let's Talk</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ======== PAGE HERO ======== -->
+    <section class="page-hero reveal">
+      <div class="container">
+        <span class="section-label">Work</span>
+        <h1 class="page-hero__headline">
+          <span class="serif">Projects that</span> speak for themselves.
+        </h1>
+        <p class="page-hero__sub">
+          Custom-built websites for construction, plumbing, roofing, and home services businesses. Each project is tailored to the client's unique needs and goals.
+        </p>
+      </div>
+    </section>
+
+        <!-- ======== PROJECT GRID ======== -->
+        <div class="project-grid reveal">
+          <article class="project-card reveal-child" data-category="construction">
+            <div class="project-card__image" role="img" aria-label="Summit Roofing Co. website">
+              <div class="project-card__image-placeholder">SR</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Summit Roofing Co.</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Construction · Roofing</span>
+              <h3 class="project-card__title">Summit Roofing Co.</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child" data-category="home-services">
+            <div class="project-card__image" role="img" aria-label="Precision Plumbing LLC website">
+              <div class="project-card__image-placeholder">PP</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Precision Plumbing LLC</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Home Services · Plumbing</span>
+              <h3 class="project-card__title">Precision Plumbing LLC</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child" data-category="construction">
+            <div class="project-card__image" role="img" aria-label="Elite Excavation website">
+              <div class="project-card__image-placeholder">EE</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Elite Excavation</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Construction · Excavation</span>
+              <h3 class="project-card__title">Elite Excavation</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child" data-category="home-services">
+            <div class="project-card__image" role="img" aria-label="HomeFirst Electric website">
+              <div class="project-card__image-placeholder">HE</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">HomeFirst Electric</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Home Services · Electrical</span>
+              <h3 class="project-card__title">HomeFirst Electric</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child" data-category="construction">
+            <div class="project-card__image" role="img" aria-label="Heritage Concrete website">
+              <div class="project-card__image-placeholder">HC</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Heritage Concrete</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Construction · Concrete</span>
+              <h3 class="project-card__title">Heritage Concrete</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child" data-category="home-services">
+            <div class="project-card__image" role="img" aria-label="QuickFix HVAC website">
+              <div class="project-card__image-placeholder">QH</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">QuickFix HVAC</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Home Services · HVAC</span>
+              <h3 class="project-card__title">QuickFix HVAC</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== PORTFOLIO NOTE ======== -->
+    <section class="portfolio-note">
+      <div class="container">
+        <p><em>New projects coming soon. Want to see your business featured here?</em></p>
+        <a href="contact.html" class="btn-primary">Get Started Today</a>
+      </div>
+    </section>
+
+    <!-- ======== CTA BANNER ======== -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container reveal">
+        <h2>Ready to get more customers online?</h2>
+        <p>Let's build something great together. No commitment required.</p>
+        <a href="contact.html" class="btn-inverted">Start a Project</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+          <p class="footer__tagline">Websites that work as hard as you do.</p>
+      </div>
+      <div class="footer__links">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:hello@lucamartino.design">hello@lucamartino.design</a>
+        <a href="https://wa.me/15550000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="currentYear"></span> Luca Martino. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

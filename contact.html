@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Luca Martino | Web Designer</title>
+  <meta name="description" content="Get in touch to discuss your web design project. Fast response. No obligation. Let's talk about your business goals.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/images/logo.png" type="image/png+xml">
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <img src="assets/images/logo.png" alt="Luca Martino logo" class="nav-logo">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="contact.html" class="btn-primary nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">✕</button>
+    <nav class="mobile-menu__nav">
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="contact.html" class="btn-inverted">Let's Talk</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ======== PAGE HERO ======== -->
+    <section class="page-hero reveal">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h1 class="page-hero__headline">
+          <span class="serif">Let's build</span> something together.
+        </h1>
+        <p class="page-hero__sub">
+          Tell me about your business and what you need. I'll get back to you within 24 hours to discuss your project.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======== CONTACT SECTION ======== -->
+    <section class="contact-section reveal">
+      <div class="container contact-layout">
+        <!-- Left Column: Contact Info -->
+        <div class="contact-info">
+          <span class="contact-info__label">Get In Touch</span>
+          <div class="contact-info__item">
+            <a href="mailto:hello@lucamartino.design">hello@lucamartino.design</a>
+          </div>
+          <div class="contact-info__item">
+            <a href="https://wa.me/15550000000" target="_blank" rel="noopener">Chat on WhatsApp →</a>
+          </div>
+          <p class="contact-info__availability">
+            Mon–Fri, 9am–6pm EST. Usually respond same day.
+          </p>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div>
+          <!-- Form (shown by default) -->
+          <form class="contact-form" id="contactForm" novalidate>
+            <!-- Honeypot anti-spam field — hidden from users -->
+            <div style="display: none;" aria-hidden="true">
+              <input type="text" name="_honey" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="name">Name *</label>
+              <input class="form-input" type="text" id="name" name="name" required autocomplete="name">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="business">Business Name *</label>
+              <input class="form-input" type="text" id="business" name="business" required>
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="email">Email *</label>
+              <input class="form-input" type="email" id="email" name="email" required autocomplete="email">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="phone">Phone (optional)</label>
+              <input class="form-input" type="tel" id="phone" name="phone" autocomplete="tel">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="message">What do you need? *</label>
+              <textarea class="form-textarea" id="message" name="message" required placeholder="Tell me about your business and your goals…"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary form-submit" style="width: 100%;">Send Message</button>
+          </form>
+
+          <!-- Success state (hidden by default) -->
+          <div class="form-success" id="formSuccess" hidden>
+            <h3>Thanks! I'll be in touch within 24 hours.</h3>
+            <p>In the meantime, feel free to reach out directly at hello@lucamartino.design or via WhatsApp.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reassurance Strip -->
+      <div class="reassurance-strip">
+        <div class="reassurance-item">No commitment required</div>
+        <div class="reassurance-item">Response within 24h</div>
+        <div class="reassurance-item">Free consultation</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+          <p class="footer__tagline">Websites that work as hard as you do.</p>
+      </div>
+      <div class="footer__links">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:hello@lucamartino.design">hello@lucamartino.design</a>
+        <a href="https://wa.me/15550000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="currentYear"></span> Luca Martino. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

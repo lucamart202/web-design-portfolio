@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Luca Martino | Web Designer</title>
+  <meta name="description" content="Premium web design and development for construction & home services businesses. Clean, professional websites that convert local customers.">
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts: Cormorant Garamond + Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/images/logo.png" type="image/png+xml">
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <img src="assets/images/logo.png" alt="Lumart logo" class="nav-logo">
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="contact.html" class="btn-primary nav-cta">Let's Talk</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======== MOBILE MENU OVERLAY ======== -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">✕</button>
+    <nav class="mobile-menu__nav">
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-primary">Let's Talk</a>
+    </nav>
+  </div>
+
+  <!-- ======== MAIN CONTENT ======== -->
+  <main>
+
+    <!-- ======== SECTION 1: HERO ======== -->
+    <section class="hero" aria-label="Introduction">
+      <div class="container hero__content">
+        <div class="hero__headline">
+          <span class="hero__line hero__line--serif">Get today a</span>
+          <span class="hero__line hero__line--bold">website</span>
+          <span class="hero__line hero__line--serif">that brings you</span>
+          <span class="hero__line hero__line--accent">more customers.</span>
+        </div>
+        <p class="hero__sub">
+          Clean, professional websites for local businesses in the USA. No fluff. Just results.
+        </p>
+        <div class="hero__cta">
+          <a href="work.html" class="btn-primary">See My Work</a>
+          <a href="contact.html" class="link-arrow">Or get in touch →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 2: TRUST BAR ======== -->
+    <section class="trust-bar" aria-label="Quick facts">
+      <div class="container trust-bar__inner">
+        <div class="trust-bar__item">5+ Projects Delivered</div>
+        <div class="trust-bar__divider" aria-hidden="true"></div>
+        <div class="trust-bar__item">100% Client Satisfaction</div>
+        <div class="trust-bar__divider" aria-hidden="true"></div>
+        <div class="trust-bar__item">Fast Turnaround — 2–4 Weeks</div>
+        <div class="trust-bar__divider" aria-hidden="true"></div>
+        <div class="trust-bar__item">USA-Based Clients Only</div>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 3: SERVICES PREVIEW ======== -->
+    <section class="services-preview reveal" aria-label="Services overview">
+      <div class="container">
+        <div class="services-preview__grid">
+          <div class="services-preview__left">
+            <span class="section-label">Services</span>
+            <h2 class="services-preview__headline">
+              <span class="serif">Everything</span> your business needs online.
+            </h2>
+            <p class="services-preview__description">
+              From initial design to final launch, I handle every aspect of creating a website that works. Fast turnaround. No surprises.
+            </p>
+            <a href="services.html" class="link-arrow services-preview__link">View all services →</a>
+          </div>
+          <div class="services-preview__cards">
+            <article class="service-card reveal-child">
+              <span class="service-card__number">01</span>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Website Design & Development</h3>
+                <p class="service-card__description">Custom-designed, hand-coded websites built specifically for your brand and business goals.</p>
+              </div>
+            </article>
+            <article class="service-card reveal-child">
+              <span class="service-card__number">02</span>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Mobile-Responsive Builds</h3>
+                <p class="service-card__description">Every site is optimized for mobile first, ensuring perfect display on phones, tablets, and desktops.</p>
+              </div>
+            </article>
+            <article class="service-card reveal-child">
+              <span class="service-card__number">03</span>
+              <div class="service-card__content">
+                <h3 class="service-card__title">Ongoing Support</h3>
+                <p class="service-card__description">Monthly plans for updates, security patches, performance monitoring, and technical support.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 4: FEATURED WORK ======== -->
+    <section class="featured-work section reveal">
+      <div class="container">
+        <h2 class="section-headline reveal">Selected Work</h2>
+        <div class="project-grid reveal">
+          <article class="project-card reveal-child">
+            <div class="project-card__image" role="img" aria-label="Summit Roofing Co. website preview">
+              <div class="project-card__image-placeholder">SR</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Summit Roofing Co.</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Roofing Company · Texas, USA</span>
+              <h3 class="project-card__title">Summit Roofing Co.</h3>
+            </div>
+          </article>
+
+          <article class="project-card reveal-child">
+            <div class="project-card__image" role="img" aria-label="Precision Plumbing LLC website preview">
+              <div class="project-card__image-placeholder">PP</div>
+              <div class="project-card__overlay">
+                <div class="project-card__overlay-content">
+                  <h3 class="project-card__overlay-title">Precision Plumbing LLC</h3>
+                  <a href="#" class="project-card__overlay-link">View Project →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Plumbing Services · Florida, USA</span>
+              <h3 class="project-card__title">Precision Plumbing LLC</h3>
+            </div>
+          </article>
+        </div>
+        <div class="section-cta reveal">
+          <a href="work.html" class="link-arrow">See All Projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 5: WHY ME (Dark Section) ======== -->
+    <section class="why-me section-dark section reveal">
+      <div class="container">
+        <div class="why-me__grid">
+          <div class="why-me__item reveal-child">
+            <span class="why-me__number">01</span>
+            <h3>More Customers</h3>
+            <p>Your website becomes your best salesperson, working 24/7 to bring in new leads and convert them into paying clients.</p>
+          </div>
+          <div class="why-me__item reveal-child">
+            <span class="why-me__number">02</span>
+            <h3>Zero Headaches</h3>
+            <p>I handle design, development, deployment, and launch. You focus on running your business while I handle the technical side.</p>
+          </div>
+          <div class="why-me__item reveal-child">
+            <span class="why-me__number">03</span>
+            <h3>Built to Last</h3>
+            <p>Fast loading, mobile-ready, and easy to update. You don't need tech knowledge. Simple admin tools included with every site.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 6: TESTIMONIALS TEASER ======== -->
+    <section class="testimonials-teaser section reveal">
+      <div class="container testimonials-teaser__inner">
+        <span class="section-label">What Clients Say</span>
+        <blockquote class="testimonials-teaser__quote">
+          <p>"Alex completely transformed our online presence. Within two months of launch, we had triple the leads we were getting before. Best investment we made for our business this year."</p>
+          <footer>
+            <cite>Marcus Rodriguez — Summit Roofing Co., Austin, Texas</cite>
+          </footer>
+        </blockquote>
+        <a href="testimonials.html" class="link-arrow">Read all testimonials →</a>
+      </div>
+    </section>
+
+    <!-- ======== SECTION 7: CTA BANNER ======== -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container reveal">
+        <h2>Ready to get more customers online?</h2>
+        <p>Let's build something great together. No commitment required.</p>
+        <a href="contact.html" class="btn-inverted">Start a Project</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+          <p class="footer__tagline">Websites that work as hard as you do.</p>
+      </div>
+      <div class="footer__links">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:hello@lucamartino.design">hello@lucamartino.design</a>
+        <a href="https://wa.me/15550000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="currentYear"></span> Luca Martino. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
